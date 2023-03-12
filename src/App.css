@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+.App {
+  /* font-family: "Cedarville Cursive", cursive;
+   */
+  font-family: "Dancing Script", cursive;
+}
