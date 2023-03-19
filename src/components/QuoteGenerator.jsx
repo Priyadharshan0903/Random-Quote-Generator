@@ -26,7 +26,7 @@ function QuoteGenerator() {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen">
-      <div className=" p-8 bg-slate-900/80  rounded-lg w-[243px] md:w-[500px] shadow-xl shadow-black">
+      <div className=" p-8 bg-slate-900/80  rounded-lg w-[246px] md:w-[500px] shadow-xl shadow-black">
         <p className="text-white font-bold md:text-2xl text-md pb-6  text-end">{date}</p>
         <p className="md:text-4xl text-xl font-bold text-white text-start ">{quote}</p>
         <p className="mt-4 text-lg font-medium text-white text-end">
@@ -36,7 +36,7 @@ function QuoteGenerator() {
           className="mt-8 px-4 py-2 sm:text-md font-bold
            bg-gray-800 text-white rounded
             hover:bg-gray-700 focus:outline-none
-             focus:ring-2 focus:ring-gray-400 md:w-[400px] sm:w-[100px] sm:text-sm md:text-2xl md:ml-4 ml-6"
+             focus:ring-2 focus:ring-gray-400 md:w-[400px] sm:w-[100px] sm:text-sm md:text-2xl md:ml-4 ml-8"
           onClick={handleNewQuote}
         >
           New Quote
