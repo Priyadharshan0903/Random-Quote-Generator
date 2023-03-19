@@ -36,7 +36,7 @@ function QuoteGenerator() {
           className="mt-8 px-4 py-2 sm:text-md font-bold
            bg-gray-800 text-white rounded
             hover:bg-gray-700 focus:outline-none
-             focus:ring-2 focus:ring-gray-400 md:w-[400px] sm:w-[100px] sm:text-sm md:text-2xl ml-4"
+             focus:ring-2 focus:ring-gray-400 md:w-[400px] sm:w-[100px] sm:text-sm md:text-2xl md:ml-4 ml-6"
           onClick={handleNewQuote}
         >
           New Quote
