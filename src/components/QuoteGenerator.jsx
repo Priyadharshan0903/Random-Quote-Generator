@@ -26,7 +26,7 @@ function QuoteGenerator() {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen">
-      <div className="max-w-lg p-8 bg-slate-900/80  rounded-lg w-[239px] md:w-[500px] shadow-xl shadow-black">
+      <div className=" p-8 bg-slate-900/80  rounded-lg w-[239px] md:w-[500px] shadow-xl shadow-black">
         <p className="text-white font-bold md:text-2xl text-md pb-6  text-end">{date}</p>
         <p className="md:text-4xl text-xl font-bold text-white text-start ">{quote}</p>
         <p className="mt-4 text-lg font-medium text-white text-end">
